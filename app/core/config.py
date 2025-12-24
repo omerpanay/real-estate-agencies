@@ -9,10 +9,10 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
     
     # Database
-    DATABASE_URL: str = "postgresql+asyncpg://user:password@localhost:5432/dbname"
+    DATABASE_URL: str = "postgresql+asyncpg://omerpanay:121314@localhost:5432/dbforAI"
     
     # JWT Configuration
-    JWT_SECRET: str = "your-super-secret-key-change-in-production"
+    JWT_SECRET: str = "jwtdffdgdfg513216sf1641"
     JWT_ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     
